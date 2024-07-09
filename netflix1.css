@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@media (max-width:599px) {
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: #110f0f;
+        color: white;
+        font-family: Roboto,Arial;
+        width: 100vw;
+        height: 100vh;
+        
+    } 
+        
+    
+    .netflix-image {
+        width: 150px;
+        height: 80px;
+        margin: 0;
+        
+    }
+    form {
+        display: flex;
+        
+        position: absolute;
+        top: 90px;
+        flex-direction: column;
+        margin: 0px 40px 0px 40px;
+    }
+    
+    .sign-in-heading {
+        font-size: 2rem;
+        letter-spacing: normal;
+        font-weight: bold;
+        margin: 25px 0px;
+    }
+    
+ .id-password {
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .id-password input {
+        border: 1px solid #606060;
+        
+        padding: 20px 20px;
+        border-radius: 5px;
+        margin-bottom: 15px;
+        background: none;
+    }
+    .id-password input::placeholder {
+        font-size: 1rem;
+        font-weight: 200;
+        color: #a0a0a0;
+    }
+    
+    .sign-in-button button{
+        width: 100%;
+        padding: 10px 0px;
+        font-size: 1rem;
+        font-weight: bold;
+        color: beige;
+        border: 1px solid #E50914;
+        background-color: #E50914;
+        border-radius: 5px;
+        letter-spacing: normal;
+        
+    }   
+    
+    .or {
+        text-align: center;
+        margin: 15px;
+        color: #c0c0c0;
+    }
+    .sign-in-code-button button {
+        width: 100%;
+        padding: 10px 0px;
+        font-size: 1rem;
+        letter-spacing: normal;
+        font-weight: bold;
+        color: white;
+        border: 1px solid #52524c;
+        background-color: #52524c;
+        border-radius: 5px;
+        
+    }
+    button:hover {
+        opacity: 0.8;
+    }
+    button:active {
+        opacity: 0.5;
+    }
+    .forgotpassword {
+        text-align: center;
+        margin: 20px;
+    }
+    .forgotpassword a {
+        text-decoration: none;
+        color: white;
+        font-size: .99rem;
+    }
+    .checkbox-text {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        column-gap: 10px;
+        
+    }
+    .checkbox-text input {
+        width:20px;
+        height: 20px;
+        margin: 15px 0px;
+    }
+    .sign-up-link {
+        margin: 15px 0px;
+        color: #c0c0c0;
+    }
+    .sign-up-link a {
+        text-decoration: none;
+        color: white;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    
+    .para {
+        font-size: .8rem;
+        color: #a0a0a0;
+    }
+    .para a {
+        text-decoration: none;
+        color: blue;
+    }
+}
